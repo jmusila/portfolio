@@ -1,0 +1,106 @@
+.Home {
+    /* padding-bottom: 5em; */
+    background-position-x: center;
+    min-height: 100%;
+}
+.Rowa {
+    padding-top: 2em;
+}
+
+.Image { 
+    height: 171px;
+    width: 180px;
+}
+
+.Image2 { 
+    height: 191px;
+    width: 200px;
+}
+
+.Greeting {
+    padding-top: 5em;
+    text-align: center;
+    padding-bottom: 12.5em;
+}
+
+.Greeting1 {
+    padding-top: 5em;
+    text-align: center;
+    padding-bottom: 11em;
+}
+
+.Empty {
+    padding-bottom: 4em;
+}
+
+.FormAlign {
+    padding-bottom: 6em;
+}
+
+.About {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.Contact {
+    padding-top: 6em;
+    text-align: center;
+}
+
+.Project {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.Progress {
+    padding-bottom: 1em;
+}
+
+.CardText {
+    color: red;
+    padding-bottom: 1em;
+}
+
+
+.Title {
+    padding-top: 5em;
+}
+
+.Submit {
+    float: right;
+}
+
+
+.btn {
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
