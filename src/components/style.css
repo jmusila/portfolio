@@ -70,6 +70,10 @@
     float: right;
 }
 
+.Footer {
+    text-align: center;
+}
+
 
 .btn {
     border-radius: 4px;
