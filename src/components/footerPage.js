@@ -1,19 +1,27 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import { BackTop } from "antd";
 import Github from './images/github-image-796x418.png';
-import LinkedIN from './images/linkedin.png'
+import LinkedIn from './images/linkedin.png'
 
 class Footer extends Component {
   render() {
     const backStyle = {
       backgroundColor: "#f2f2f2"
     };
+    const ImageStyle = {
+        height: "70px",
+        width: "100px"
+    }
     return (
       <div style={backStyle}>
         <Container className="Footer">
-          <BackTop />
-          <h6>JONATHAN MUSILA @2020</h6>
+            <div className="IconsStyle">
+                <Image style={ImageStyle} src={Github} thumbnail />
+                <Image style={ImageStyle} src={LinkedIn} thumbnail /> 
+            </div>
+          <b>JONATHAN MUSILA @2020</b>
+                <BackTop />
         </Container>
       </div>
     );

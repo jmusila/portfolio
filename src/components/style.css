@@ -74,6 +74,11 @@
     text-align: center;
 }
 
+.IconsStyle {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 
 .btn {
     border-radius: 4px;
