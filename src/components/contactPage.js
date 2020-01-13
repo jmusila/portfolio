@@ -12,7 +12,7 @@ class Contacts extends Component {
                 <Container className="FormPlace">
                     <Row>
                     <Col></Col>
-                        <Col xs={5} className="Contact">
+                        <Col xs={7} className="Contact">
                         <h6>Have a question or want to work together?</h6>
                         <br/>
                         <Form className="FormAlign" action="https://formspree.io/mbjglayk" method="POST">

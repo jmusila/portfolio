@@ -7,18 +7,18 @@ import LinkedIn from './images/linkedin.png'
 class Footer extends Component {
   render() {
     const backStyle = {
-      backgroundColor: "#f2f2f2"
+        backgroundColor: "#a6a6a6"
     };
     const ImageStyle = {
-        height: "70px",
-        width: "100px"
+        height: "40px",
+        width: "50px"
     }
     return (
       <div style={backStyle}>
         <Container className="Footer">
             <div className="IconsStyle">
-                <Image style={ImageStyle} src={Github} thumbnail />
-                <Image style={ImageStyle} src={LinkedIn} thumbnail /> 
+                <Image style={ImageStyle} src={Github} />
+                <Image style={ImageStyle} src={LinkedIn} /> 
             </div>
           <b>JONATHAN MUSILA @2020</b>
                 <BackTop />
