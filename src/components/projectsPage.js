@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Portfolio from './images/portfolio.png';
 import Questioner from './images/questioner.png';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 
 
 class Projects extends Component {
@@ -20,12 +20,13 @@ class Projects extends Component {
                         <Card style={{ width: 'auto' }}>
                             <Card.Img variant="top" src={Portfolio} />
                             <Card.Body>
-                                <Card.Title>Questioner</Card.Title>
+                                    <Card.Title className="Projo">Questioner</Card.Title>
+                                    <hr/>
                                 <Card.Text>
-                                    Questioner web app build using HTML, CSS and Javascript. The application backend is build using Python/Flask and PostgreSQL.
+                                        Questioner web app build using <Badge variant="secondary">HTML, CSS and Javascript</Badge> The application backend is build using <Badge variant="secondary">Python/Flask and PostgreSQL</Badge>
                                 </Card.Text>
-                                    <Card.Link href="https://jonathanmusila.github.io/Questioner/UI/">View Project</Card.Link>
-                                    <Card.Link href="https://github.com/jonathanmusila/Questioner/tree/gh-pages">View Code</Card.Link>
+                                    <Card.Link target="_blank" href="https://jonathanmusila.github.io/Questioner/UI/">View Project</Card.Link>
+                                    <Card.Link target="_blank" href="https://github.com/jonathanmusila/Questioner/tree/gh-pages">View Code</Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -33,12 +34,13 @@ class Projects extends Component {
                         <Card style={{ width: 'auto' }}>
                             <Card.Img variant="top" src={Portfolio} />
                             <Card.Body>
-                                <Card.Title>Store Manager</Card.Title>
+                                <Card.Title className="Projo">Store Manager</Card.Title>
+                                <hr/>
                                 <Card.Text>
-                                    Store Manager web app build using HTML, CSS and Javascript. The application backend is build using Python/Flask and PostgreSQL.
+                                        Store Manager web app build using <Badge variant="secondary">HTML, CSS and Javascript</Badge> The application backend is build using <Badge variant="secondary">Python/Flask and PostgreSQL</Badge>
                             </Card.Text>
-                                    <Card.Link href="#">View Project</Card.Link>
-                                    <Card.Link href="#">View Code</Card.Link>
+                                    <Card.Link target="_blank" href="https://jonathanmusila.github.io/Store-Manager/UI/">View Project</Card.Link>
+                                    <Card.Link target="_blank" href="https://github.com/jonathanmusila/Store-Manager/tree/gh-pages/UI">View Code</Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>

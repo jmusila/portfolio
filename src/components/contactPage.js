@@ -41,11 +41,11 @@ class Contacts extends Component {
                         <br/>
                             <br />
                         <Icon style={IconStyle} type="github" theme="filled" />
-                        :  Github Profile
+                            <a target="_blank" href="https://github.com/jonathanmusila/">Github Profile</a>
                         <br/>
-                            <br />
+                        <br/>
                         <Icon style={IconStyle} type="linkedin" theme="filled" />
-                        :  LinkedIn Profile
+                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-musila-b3706914b/">LinkedIn Profile</a>
                     </Col>
                     </Row>
                 </Container>
