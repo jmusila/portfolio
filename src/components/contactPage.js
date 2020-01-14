@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import { Container, Col, Form, Button, Row } from 'react-bootstrap';
+import { Icon } from 'antd';
 
 class Contacts extends Component {
     render() {
         const backStyle = {
             backgroundColor: '#d9d9d9'
         }
+        const IconStyle = {
+            fontSize: '30px'
+        }
         return (
             <div style={backStyle} id="contact">
                 <u><h1 className="About">Contact</h1></u>
                 <Container className="FormPlace">
                     <Row>
-                    <Col></Col>
-                        <Col xs={7} className="Contact">
+                        <Col sm={8} className="Contact">
                         <h6>Have a question or want to work together?</h6>
                         <br/>
                         <Form className="FormAlign" action="https://formspree.io/mbjglayk" method="POST">
@@ -30,7 +33,20 @@ class Contacts extends Component {
                         </Button>  
                     </Form>
                     </Col>
-                    <Col></Col>
+                    <Col sm={4} className="Contact">
+                        <h5><u>My Contacts</u></h5>
+                        <br/>
+                        <Icon style={IconStyle} type="phone" theme="twoTone" />
+                        :  +254 792 707 312
+                        <br/>
+                            <br />
+                        <Icon style={IconStyle} type="github" theme="filled" />
+                        :  Github Profile
+                        <br/>
+                            <br />
+                        <Icon style={IconStyle} type="linkedin" theme="filled" />
+                        :  LinkedIn Profile
+                    </Col>
                     </Row>
                 </Container>
             </div>
