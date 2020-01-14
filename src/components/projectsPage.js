@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Portfolio from './images/portfolio.png';
+import Store from './images/store.png';
 import Questioner from './images/questioner.png';
 import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
 
@@ -18,7 +18,7 @@ class Projects extends Component {
                 <Row>
                     <Col>
                         <Card style={{ width: 'auto' }}>
-                            <Card.Img variant="top" src={Portfolio} />
+                            <Card.Img variant="top" src={Questioner} />
                             <Card.Body>
                                     <Card.Title className="Projo">Questioner</Card.Title>
                                     <hr/>
@@ -32,7 +32,7 @@ class Projects extends Component {
                     </Col>
                     <Col>
                         <Card style={{ width: 'auto' }}>
-                            <Card.Img variant="top" src={Portfolio} />
+                            <Card.Img variant="top" src={Store} />
                             <Card.Body>
                                 <Card.Title className="Projo">Store Manager</Card.Title>
                                 <hr/>
