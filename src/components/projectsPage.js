@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Store from './images/store.png';
 import Questioner from './images/questioner.png';
-import { Container, Row, Col, Card, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 
 
 class Projects extends Component {
@@ -25,8 +25,8 @@ class Projects extends Component {
                                 <Card.Text>
                                         Questioner web app build using <Badge variant="secondary">HTML, CSS and Javascript</Badge> The application backend is build using <Badge variant="secondary">Python/Flask and PostgreSQL</Badge>
                                 </Card.Text>
-                                    <Card.Link target="_blank" href="https://jonathanmusila.github.io/Questioner/UI/">View Project</Card.Link>
-                                    <Card.Link target="_blank" href="https://github.com/jonathanmusila/Questioner/tree/gh-pages">View Code</Card.Link>
+                                    <Button target="_blank" href="https://jonathanmusila.github.io/Questioner/UI/">View Project</Button>
+                                    <Button className="ButtonAlign" target="_blank" href="https://github.com/jonathanmusila/Questioner/tree/gh-pages">View Code</Button>
                             </Card.Body>
                         </Card>
                     </Col>

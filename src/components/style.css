@@ -47,6 +47,10 @@
     text-align: center;
 }
 
+.ButtonAlign {
+    align-items: left;
+}
+
 .Projo {
     text-align: center;
 }
